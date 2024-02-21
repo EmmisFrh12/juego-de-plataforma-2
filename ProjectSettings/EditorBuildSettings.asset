@@ -237,6 +237,9 @@ EditorBuildSettings:
     path: Assets/escena/Nivel1.unity
     guid: 2c996c6ae3779d24ba453eb3e6d56b89
   - enabled: 1
+    path: Assets/escena/Nivel2.unity
+    guid: d0cabe22716b0aa4f8acb07ce398aaff
+  - enabled: 1
     path: "Assets/escena/perdi\xF3.unity"
     guid: f9c89aad580e9944da753d69a7a2d0b7
   - enabled: 1
