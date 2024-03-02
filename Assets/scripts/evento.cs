@@ -6,8 +6,24 @@ using MoreMountains.CorgiEngine;
 
 public class evento : MonoBehaviour, MMEventListener<PickableItemEvent>
 {
+    [SerializeField]
+    private GameObject door;
     private int monedas_recolectadas;
     // Start is called before the first frame update
+
+    private void Awake()
+    {
+        if (door == null)
+        {
+            door = new GameObject();
+        }
+        
+    }
+    void Start()
+    {
+            door.SetActive(false);
+    }
+
     void OnEnable()
     {
         this.MMEventStartListening<PickableItemEvent>();
@@ -27,6 +43,7 @@ public class evento : MonoBehaviour, MMEventListener<PickableItemEvent>
         if (monedas_recolectadas == 4)
         {
             Debug.Log("abrir puerta");
+            door.SetActive(true);
         }
     }
 }
