@@ -979,6 +979,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 766015272}
+  - component: {fileID: 766015273}
   m_Layer: 0
   m_Name: Collectables
   m_TagString: Untagged
@@ -1008,6 +1009,19 @@ Transform:
   - {fileID: 162181307}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &766015273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 766015271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dd493403790e3e43801d74742f7adf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  door: {fileID: 2052757788}
 --- !u!1001 &779206226
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1277,11 +1291,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7a343ffc127af4b41b1e509d55d21956, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -13.6
+      value: -17.01
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7a343ffc127af4b41b1e509d55d21956, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -33.02
+      value: -34.42
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7a343ffc127af4b41b1e509d55d21956, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2828,6 +2842,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f58a667c8217aaf42b28e20ef609767b, type: 3}
+--- !u!1 &2052757788 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1220719764557184, guid: feac1641feadae445931567fc1daf1b7,
+    type: 3}
+  m_PrefabInstance: {fileID: 839225370}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2098977784 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4425996769619488, guid: de14462abe6298a4d8abf57c78e3050e,
@@ -3024,6 +3044,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MinimalCameraRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 8040196612442320769, guid: 67e9e6648638ca94eaaa9e41373f42f2,
+        type: 3}
+      propertyPath: orthographic size
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8040196612442320774, guid: 67e9e6648638ca94eaaa9e41373f42f2,
         type: 3}
