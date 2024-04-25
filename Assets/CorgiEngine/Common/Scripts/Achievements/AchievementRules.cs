@@ -34,8 +34,8 @@ namespace MoreMountains.CorgiEngine
 			{
 				switch (characterEvent.EventType)
 				{
-					case MMCharacterEventTypes.Jump:
-						MMAchievementManager.AddProgress ("JumpAround", 1);
+					case MMCharacterEventTypes.Jetpack:
+						MMAchievementManager.UnlockAchievement("JetPack");
 						break;
 				}	
 			}
@@ -46,10 +46,10 @@ namespace MoreMountains.CorgiEngine
 			switch (corgiEngineEvent.EventType)
 			{
 				case CorgiEngineEventTypes.LevelEnd:
-					MMAchievementManager.UnlockAchievement ("PrincessInAnotherCastle");
+					MMAchievementManager.UnlockAchievement ("MarioStyle");
 					break;
 				case CorgiEngineEventTypes.PlayerDeath:
-					MMAchievementManager.UnlockAchievement ("DeathIsOnlyTheBeginning");
+					MMAchievementManager.UnlockAchievement ("Die");
 					break;
 			}
 		}
@@ -60,7 +60,7 @@ namespace MoreMountains.CorgiEngine
 			{
 				if (pickableItemEvent.PickedItem.GetComponent<Coin>() != null)
 				{
-					MMAchievementManager.AddProgress ("MoneyMoneyMoney", 1);
+					MMAchievementManager.AddProgress ("Rich", 1);
 				}
 				if (pickableItemEvent.PickedItem.GetComponent<Stimpack>() != null)
 				{

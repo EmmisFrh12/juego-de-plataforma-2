@@ -12,6 +12,10 @@ public class NewBehaviourScript : MonoBehaviour
     [SerializeField] string instructionsLevelName = "";
     [Tooltip("the (exact) name of the Scene to see the credits ")]
     [SerializeField] string creditsLevelName = "";
+    [Tooltip("the (exact) name of the Scene to see the start ")]
+    [SerializeField] string startLevelName = "";
+    [Tooltip("the (exact) name of the Scene to see the acievements ")]
+    [SerializeField] string acievementsLevelName = "";
     public void OnClickJugar()
     {
         MMSceneLoadingManager.LoadScene(playLevelName);
@@ -23,6 +27,14 @@ public class NewBehaviourScript : MonoBehaviour
     public void OnClickCreditos()
     {
         MMSceneLoadingManager.LoadScene(creditsLevelName);
+    }
+    public void OnClickLogrosVolver()
+    {
+        MMSceneLoadingManager.LoadScene(startLevelName);
+    }
+    public void OnClickLogros()
+    {
+        MMSceneLoadingManager.LoadScene(acievementsLevelName);
     }
     public void OnClickSalir()
     {

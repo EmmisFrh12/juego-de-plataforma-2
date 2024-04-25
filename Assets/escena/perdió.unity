@@ -281,7 +281,7 @@ PrefabInstance:
     - target: {fileID: 2601961654010056553, guid: 9f949819e77869445bda9ef86b9248d3,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: -335.5432
+      value: -437.1534
       objectReference: {fileID: 0}
     - target: {fileID: 2601961654010056553, guid: 9f949819e77869445bda9ef86b9248d3,
         type: 3}
@@ -667,7 +667,7 @@ Canvas:
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 149
   m_TargetDisplay: 0
 --- !u!224 &1194320998
 RectTransform:

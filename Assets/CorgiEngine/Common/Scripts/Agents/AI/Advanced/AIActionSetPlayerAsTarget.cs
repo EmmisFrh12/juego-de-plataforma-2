@@ -10,8 +10,9 @@ namespace MoreMountains.CorgiEngine
 	public class AIActionSetPlayerAsTarget : AIAction
 	{
 		public bool OnlyRunOnce = true;
-    
-		protected bool _alreadyRan = false;
+        public string braintarget;
+
+        protected bool _alreadyRan = false;
     
 		/// <summary>
 		/// On init we initialize our action
@@ -27,6 +28,7 @@ namespace MoreMountains.CorgiEngine
 		/// </summary>
 		public override void PerformAction()
 		{
+			
 			if (OnlyRunOnce && _alreadyRan)
 			{
 				return;
@@ -34,9 +36,11 @@ namespace MoreMountains.CorgiEngine
 
 			if (LevelManager.HasInstance)
 			{
-				_brain.Target = LevelManager.Instance.Players[0].transform;
+                
+                _brain.Target = LevelManager.Instance.Players[0].transform;
 			}
-		}
+            braintarget = _brain.Target.name;
+        }
 
 		/// <summary>
 		/// On enter state we reset our flag

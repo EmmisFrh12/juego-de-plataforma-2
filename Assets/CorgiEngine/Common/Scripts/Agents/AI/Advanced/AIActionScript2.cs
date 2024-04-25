@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using MoreMountains.Tools;
@@ -11,7 +11,7 @@ namespace MoreMountains.CorgiEngine
     [AddComponentMenu("Corgi Engine/Character/AI/Actions/AI Action Shoot")]
     // [RequireComponent(typeof(Character))]
     // [RequireComponent(typeof(CharacterHandleWeapon))]
-    public class AIActionShoot : AIAction
+    public class AIActionScript2 : AIAction
     {
         /// if true, the Character will face the target (left/right) when shooting
         [Tooltip("if true, the Character will face the target (left/right) when shooting")]
@@ -25,6 +25,7 @@ namespace MoreMountains.CorgiEngine
         /// the ability to pilot
         [Tooltip("the ability to pilot")]
         public CharacterHandleWeapon TargetHandleWeapon;
+
 
         protected Character _character;
         protected WeaponAim _weaponAim;
@@ -52,7 +53,11 @@ namespace MoreMountains.CorgiEngine
         {
             TestFaceTarget();
             TestAimAtTarget();
-            Shoot();
+            while (_numberOfShoots<10)
+            {
+                Shoot();
+            }
+            
         }
 
         /// <summary>
@@ -96,15 +101,16 @@ namespace MoreMountains.CorgiEngine
             {
                 return;
             }
-                if (this.transform.position.x > LevelManager.Instance.Players[0].transform.position.x)
-                {
-                    _character.Face(Character.FacingDirections.Left);
-                }
-                else
-                {
-                    _character.Face(Character.FacingDirections.Right);
-                }
-            
+
+            if (this.transform.position.x > LevelManager.Instance.Players[0].transform.position.x)
+            {
+                _character.Face(Character.FacingDirections.Left);
+
+            }
+            else
+            {
+                _character.Face(Character.FacingDirections.Right);
+            }
         }
 
         /// <summary>
@@ -144,7 +150,7 @@ namespace MoreMountains.CorgiEngine
         /// </summary>
         protected virtual void Shoot()
         {
-            if (_numberOfShoots < 1)
+            if (_numberOfShoots < 10)
             {
                 TargetHandleWeapon.ShootStart();
                 _numberOfShoots++;

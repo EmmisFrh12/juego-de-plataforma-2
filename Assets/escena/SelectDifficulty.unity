@@ -207,9 +207,21 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 392250204}
+        m_TargetAssemblyTypeName: DifficultySettings, Assembly-CSharp
+        m_MethodName: OnClickNormal
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1112959149}
         m_TargetAssemblyTypeName: NewBehaviourScript, Assembly-CSharp
-        m_MethodName: OnClickInstrucciones
+        m_MethodName: OnClickJugar
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -257,6 +269,51 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3615994}
   m_CullTransparentMesh: 1
+--- !u!1 &392250203
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 392250205}
+  - component: {fileID: 392250204}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &392250204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 392250203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 761af35a4f1f7d24db4d6c0c5535c20d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 0}
+--- !u!4 &392250205
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 392250203}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1096.2058, y: 580.9262, z: -35.25577}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &727420161
 GameObject:
   m_ObjectHideFlags: 0
@@ -511,9 +568,21 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 392250204}
+        m_TargetAssemblyTypeName: DifficultySettings, Assembly-CSharp
+        m_MethodName: OnClickPerma
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1112959149}
         m_TargetAssemblyTypeName: NewBehaviourScript, Assembly-CSharp
-        m_MethodName: OnClickLogros
+        m_MethodName: OnClickJugar
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1017,7 +1086,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d2552a602b46d0489e718e084656e09, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playLevelName: SelectDifficulty
+  playLevelName: Nivel1
   instructionsLevelName: "instrucci\xF3nes"
   creditsLevelName: creditos
   startLevelName: inicio
@@ -1105,6 +1174,18 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 392250204}
+        m_TargetAssemblyTypeName: DifficultySettings, Assembly-CSharp
+        m_MethodName: OnClickFacil
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1112959149}
         m_TargetAssemblyTypeName: NewBehaviourScript, Assembly-CSharp
         m_MethodName: OnClickJugar
@@ -1461,8 +1542,8 @@ RectTransform:
   - {fileID: 727420162}
   - {fileID: 1344954394}
   - {fileID: 3615995}
-  - {fileID: 885788449}
   - {fileID: 1980826228}
+  - {fileID: 885788449}
   - {fileID: 1051561973}
   m_Father: {fileID: 1674947920}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1751,9 +1832,21 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 392250204}
+        m_TargetAssemblyTypeName: DifficultySettings, Assembly-CSharp
+        m_MethodName: OnClickDificil
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1112959149}
         m_TargetAssemblyTypeName: NewBehaviourScript, Assembly-CSharp
-        m_MethodName: OnClickCreditos
+        m_MethodName: OnClickJugar
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2026,3 +2119,4 @@ SceneRoots:
   - {fileID: 1674947919}
   - {fileID: 8040196612217246658}
   - {fileID: 1751398537}
+  - {fileID: 392250205}

@@ -222,6 +222,9 @@ EditorBuildSettings:
     path: Assets/CorgiEngine/ThirdParty/MoreMountains/MMTools/Tools/MMSceneLoading/LoadingScreens/MMAdditiveLoadingScreenSimple.unity
     guid: 945e5b97212e8e74ebcd35bddde3970c
   - enabled: 1
+    path: Assets/escena/inicio.unity
+    guid: 6dd0c6f436f9e83439a50719af34eca0
+  - enabled: 1
     path: Assets/escena/creditos.unity
     guid: 55f4f80e86d1c084d8907054f4db2c07
   - enabled: 1
@@ -230,9 +233,6 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/escena/instrucci\xF3nes.unity"
     guid: ea4c0b46f75327c4a86c64eff998efd7
-  - enabled: 1
-    path: "Assets/escena/Men\xFA (No Utilizado Aun=.unity"
-    guid: 439b0a64973ffec4a9b6d79371c2b1e1
   - enabled: 1
     path: Assets/escena/Nivel1.unity
     guid: 2c996c6ae3779d24ba453eb3e6d56b89
@@ -243,7 +243,7 @@ EditorBuildSettings:
     path: "Assets/escena/perdi\xF3.unity"
     guid: f9c89aad580e9944da753d69a7a2d0b7
   - enabled: 1
-    path: Assets/escena/inicio.unity
+    path: Assets/escena/SelectDifficulty.unity
     guid: 6ab0d2841403a0d409ef8b60b6460c41
   - enabled: 1
     path: Assets/CorgiEngine/ThirdParty/MoreMountains/MMTools/Tools/MMSceneLoading/LoadingScreens/LoadingScreen.unity
@@ -251,4 +251,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/escena/easteregg2.unity
     guid: 5cdea311cf093db478da22dd6c32ddb8
+  - enabled: 1
+    path: Assets/escena/Achievements.unity
+    guid: 09371c9d4af792a4a8bc55467eb75ece
+  - enabled: 1
+    path: Assets/escena/Nivel3.unity
+    guid: b912bf0afdbae1747af655cc8d061b63
   m_configObjects: {}

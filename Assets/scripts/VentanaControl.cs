@@ -46,7 +46,7 @@ public class VentanaControl : MonoBehaviour
 
     private void LoadScene()
     {
-        SceneManager.LoadSceneAsync(4, LoadSceneMode.Additive);
+        SceneManager.LoadSceneAsync("SelectDifficulty", LoadSceneMode.Additive);
         isLoaded = true;
     }
 
