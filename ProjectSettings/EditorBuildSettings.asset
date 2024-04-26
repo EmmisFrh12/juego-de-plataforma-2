@@ -228,7 +228,7 @@ EditorBuildSettings:
     path: Assets/escena/creditos.unity
     guid: 55f4f80e86d1c084d8907054f4db2c07
   - enabled: 1
-    path: "Assets/escena/gan\xF3.unity"
+    path: Assets/escena/gano.unity
     guid: a5f9bf64ec86ea64cb3653ffba6ee91f
   - enabled: 1
     path: "Assets/escena/instrucci\xF3nes.unity"
@@ -257,4 +257,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/escena/Nivel3.unity
     guid: b912bf0afdbae1747af655cc8d061b63
+  - enabled: 1
+    path: Assets/escena/easteregg3.unity
+    guid: 34bd470d35de38b44bd3fe6f5cf97b78
   m_configObjects: {}
