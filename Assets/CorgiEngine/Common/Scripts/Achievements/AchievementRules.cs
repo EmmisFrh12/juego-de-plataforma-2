@@ -62,9 +62,9 @@ namespace MoreMountains.CorgiEngine
 				{
 					MMAchievementManager.AddProgress ("Rich", 1);
 				}
-				if (pickableItemEvent.PickedItem.GetComponent<Stimpack>() != null)
+				if (pickableItemEvent.PickedItem.GetComponent<EstrellaInmunidad>() != null)
 				{
-					MMAchievementManager.UnlockAchievement ("Medic");
+					MMAchievementManager.UnlockAchievement ("Systems at 200%");
 				}
 			}
 		}

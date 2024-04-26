@@ -50,3 +50,63 @@ MonoBehaviour:
     UnlockedSound: {fileID: 0}
     ProgressTarget: 10
     ProgressCurrent: 0
+  - AchievementID: level 1
+    AchievementType: 1
+    HiddenAchievement: 0
+    UnlockedStatus: 0
+    Title: 'Good start '
+    Description: Finish the first level
+    Points: 25
+    LockedImage: {fileID: 0}
+    UnlockedImage: {fileID: 0}
+    UnlockedSound: {fileID: 0}
+    ProgressTarget: 10
+    ProgressCurrent: 0
+  - AchievementID: level 2
+    AchievementType: 1
+    HiddenAchievement: 0
+    UnlockedStatus: 0
+    Title: making some progress
+    Description: Finish the second level
+    Points: 25
+    LockedImage: {fileID: 0}
+    UnlockedImage: {fileID: 0}
+    UnlockedSound: {fileID: 0}
+    ProgressTarget: 10
+    ProgressCurrent: 0
+  - AchievementID: level 3
+    AchievementType: 1
+    HiddenAchievement: 0
+    UnlockedStatus: 0
+    Title: Escape
+    Description: Exit the factory
+    Points: 25
+    LockedImage: {fileID: 0}
+    UnlockedImage: {fileID: 0}
+    UnlockedSound: {fileID: 0}
+    ProgressTarget: 10
+    ProgressCurrent: 0
+  - AchievementID: Ee1
+    AchievementType: 0
+    HiddenAchievement: 0
+    UnlockedStatus: 0
+    Title: when did i put this here?
+    Description: Find the rock
+    Points: 25
+    LockedImage: {fileID: 0}
+    UnlockedImage: {fileID: 0}
+    UnlockedSound: {fileID: 0}
+    ProgressTarget: 10
+    ProgressCurrent: 0
+  - AchievementID: Ee2
+    AchievementType: 0
+    HiddenAchievement: 0
+    UnlockedStatus: 0
+    Title: You are my sunshine
+    Description: Find Lebron
+    Points: 25
+    LockedImage: {fileID: 0}
+    UnlockedImage: {fileID: 0}
+    UnlockedSound: {fileID: 0}
+    ProgressTarget: 10
+    ProgressCurrent: 0
