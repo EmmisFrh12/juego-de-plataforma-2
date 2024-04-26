@@ -21,8 +21,8 @@ MonoBehaviour:
     Title: Welcome to dark souls! wait.. wrong game
     Description: Die for the first time
     Points: 25
-    LockedImage: {fileID: 21300010, guid: fa6d364a5a0575245859952062aea14b, type: 3}
-    UnlockedImage: {fileID: 21300028, guid: fa6d364a5a0575245859952062aea14b, type: 3}
+    LockedImage: {fileID: 21300000, guid: 577b1f523bf0da648ae6539798bb0e5e, type: 3}
+    UnlockedImage: {fileID: 21300000, guid: 6b83ce90a3530e44eb124dd9ea1acb86, type: 3}
     UnlockedSound: {fileID: 0}
     ProgressTarget: 0
     ProgressCurrent: 0
@@ -33,8 +33,8 @@ MonoBehaviour:
     Title: Next time, Check all buttons
     Description: Press 2 for the first time
     Points: 0
-    LockedImage: {fileID: 21300010, guid: fa6d364a5a0575245859952062aea14b, type: 3}
-    UnlockedImage: {fileID: 21300030, guid: fa6d364a5a0575245859952062aea14b, type: 3}
+    LockedImage: {fileID: 21300000, guid: 0272390f5c23d8245a1b7789acff6e68, type: 3}
+    UnlockedImage: {fileID: 21300000, guid: fa7a5226e833f354c9b35cb6de7f750a, type: 3}
     UnlockedSound: {fileID: 0}
     ProgressTarget: 0
     ProgressCurrent: 0
@@ -45,8 +45,8 @@ MonoBehaviour:
     Title: 'Mr.Beast '
     Description: Collect 10 coins
     Points: 25
-    LockedImage: {fileID: 21300010, guid: fa6d364a5a0575245859952062aea14b, type: 3}
-    UnlockedImage: {fileID: 21300030, guid: fa6d364a5a0575245859952062aea14b, type: 3}
+    LockedImage: {fileID: 21300000, guid: fce56e92763766445a7d85d3c6290899, type: 3}
+    UnlockedImage: {fileID: 21300000, guid: f03059215680c0d45b5639a60adab713, type: 3}
     UnlockedSound: {fileID: 0}
     ProgressTarget: 10
     ProgressCurrent: 0
@@ -57,8 +57,8 @@ MonoBehaviour:
     Title: 'Good start '
     Description: Finish the first level
     Points: 25
-    LockedImage: {fileID: 21300010, guid: fa6d364a5a0575245859952062aea14b, type: 3}
-    UnlockedImage: {fileID: 21300028, guid: fa6d364a5a0575245859952062aea14b, type: 3}
+    LockedImage: {fileID: 21300000, guid: 053071421b854ab43b177e5b9ae2fe02, type: 3}
+    UnlockedImage: {fileID: 21300000, guid: 3ec20ae3962bd1e4b8d5b8686bb92dbb, type: 3}
     UnlockedSound: {fileID: 0}
     ProgressTarget: 10
     ProgressCurrent: 0
@@ -69,8 +69,8 @@ MonoBehaviour:
     Title: making some progress
     Description: Finish the second level
     Points: 25
-    LockedImage: {fileID: 21300010, guid: fa6d364a5a0575245859952062aea14b, type: 3}
-    UnlockedImage: {fileID: 21300024, guid: fa6d364a5a0575245859952062aea14b, type: 3}
+    LockedImage: {fileID: 21300000, guid: 6633a6cbafd90384aa94b440027a36a7, type: 3}
+    UnlockedImage: {fileID: 21300000, guid: 4f56f8b45271dab40b1bd18befb19e59, type: 3}
     UnlockedSound: {fileID: 0}
     ProgressTarget: 10
     ProgressCurrent: 0
@@ -81,8 +81,8 @@ MonoBehaviour:
     Title: Escape
     Description: Exit the factory
     Points: 25
-    LockedImage: {fileID: 21300010, guid: fa6d364a5a0575245859952062aea14b, type: 3}
-    UnlockedImage: {fileID: 21300026, guid: fa6d364a5a0575245859952062aea14b, type: 3}
+    LockedImage: {fileID: 21300000, guid: 97847b141c881f74bb764cddc810bba6, type: 3}
+    UnlockedImage: {fileID: 21300000, guid: a3643199c62bd2a42971f36cdf65b23c, type: 3}
     UnlockedSound: {fileID: 0}
     ProgressTarget: 10
     ProgressCurrent: 0
@@ -93,8 +93,8 @@ MonoBehaviour:
     Title: when did i put this here?
     Description: Find the rock
     Points: 25
-    LockedImage: {fileID: 21300010, guid: fa6d364a5a0575245859952062aea14b, type: 3}
-    UnlockedImage: {fileID: 21300026, guid: fa6d364a5a0575245859952062aea14b, type: 3}
+    LockedImage: {fileID: 21300000, guid: 20f459aeb743d9f4483501a2167574a5, type: 3}
+    UnlockedImage: {fileID: 21300000, guid: 6c71caac50771784a811a3e206560921, type: 3}
     UnlockedSound: {fileID: 0}
     ProgressTarget: 10
     ProgressCurrent: 0
@@ -105,8 +105,8 @@ MonoBehaviour:
     Title: You are my sunshine
     Description: Find Lebron
     Points: 25
-    LockedImage: {fileID: 21300010, guid: fa6d364a5a0575245859952062aea14b, type: 3}
-    UnlockedImage: {fileID: 21300030, guid: fa6d364a5a0575245859952062aea14b, type: 3}
+    LockedImage: {fileID: 21300000, guid: b2dd69aa7f54e2e47bd346396231702f, type: 3}
+    UnlockedImage: {fileID: 21300000, guid: 2a25537c1aaab1a48a68efddc217b180, type: 3}
     UnlockedSound: {fileID: 0}
     ProgressTarget: 0
     ProgressCurrent: 0
@@ -117,8 +117,8 @@ MonoBehaviour:
     Title: You are my sunshine
     Description: Find Lebron
     Points: 25
-    LockedImage: {fileID: 21300010, guid: fa6d364a5a0575245859952062aea14b, type: 3}
-    UnlockedImage: {fileID: 21300030, guid: fa6d364a5a0575245859952062aea14b, type: 3}
+    LockedImage: {fileID: 21300000, guid: ed96142533a841740878ff229dd65242, type: 3}
+    UnlockedImage: {fileID: 21300000, guid: aa033e6b7d5c20a4c86ccff872634c80, type: 3}
     UnlockedSound: {fileID: 0}
     ProgressTarget: 10
     ProgressCurrent: 0
