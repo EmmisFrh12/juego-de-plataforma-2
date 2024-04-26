@@ -49,7 +49,9 @@ namespace MoreMountains.Tools
 			achievementDisplay.Title.text = achievement.Title;
 			achievementDisplay.Description.text = achievement.Description;
 			achievementDisplay.Icon.sprite = achievement.UnlockedImage;
-			if (achievement.AchievementType == AchievementTypes.Progress)
+			
+
+            if (achievement.AchievementType == AchievementTypes.Progress)
 			{
 				achievementDisplay.ProgressBarDisplay.gameObject.SetActive(true);
 			}

@@ -2553,6 +2553,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2533044991598046390, guid: 3e7fc354074598647be198174fb76eda,
+        type: 3}
+      propertyPath: m_Text
+      value: BACK TO MAIN MENU
+      objectReference: {fileID: 0}
+    - target: {fileID: 3046243661141520158, guid: 3e7fc354074598647be198174fb76eda,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3689884830765052692, guid: 3e7fc354074598647be198174fb76eda,
+        type: 3}
+      propertyPath: LevelName
+      value: inicio
+      objectReference: {fileID: 0}
     - target: {fileID: 4041011537191347975, guid: 3e7fc354074598647be198174fb76eda,
         type: 3}
       propertyPath: m_LocalPosition.x

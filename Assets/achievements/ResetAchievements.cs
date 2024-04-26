@@ -6,7 +6,7 @@ using UnityEngine;
 public class ResetAchievements : MonoBehaviour
 {
     [SerializeField] MMAchievementList list;
-    void ResetAchievementsFuntion()
+    public void ResetAchievementsFuntion()
     {
         list.ResetAchievements();
     }

@@ -134,7 +134,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1000011764500980, guid: bf6e65de4f70a4dcf99ceb68e999d287, type: 3}
       propertyPath: m_Name
-      value: AchievementDisplay (3)
+      value: lvl1
       objectReference: {fileID: 0}
     - target: {fileID: 1000011764500980, guid: bf6e65de4f70a4dcf99ceb68e999d287, type: 3}
       propertyPath: m_IsActive
@@ -268,13 +268,23 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1000011764500980, guid: bf6e65de4f70a4dcf99ceb68e999d287,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2136968764}
   m_SourcePrefab: {fileID: 100100000, guid: bf6e65de4f70a4dcf99ceb68e999d287, type: 3}
 --- !u!224 &143357405 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 224000014175055234, guid: bf6e65de4f70a4dcf99ceb68e999d287,
     type: 3}
   m_PrefabInstance: {fileID: 143357404}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &188734460 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000011764500980, guid: bf6e65de4f70a4dcf99ceb68e999d287,
+    type: 3}
+  m_PrefabInstance: {fileID: 1781304649}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &320077682
 GameObject:
@@ -344,6 +354,12 @@ MonoBehaviour:
   m_FirstSelected: {fileID: 0}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
+--- !u!1 &335027286 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000011764500980, guid: bf6e65de4f70a4dcf99ceb68e999d287,
+    type: 3}
+  m_PrefabInstance: {fileID: 1510101370}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &382896101
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -354,7 +370,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1000011764500980, guid: bf6e65de4f70a4dcf99ceb68e999d287, type: 3}
       propertyPath: m_Name
-      value: AchievementDisplay (9)
+      value: ????
       objectReference: {fileID: 0}
     - target: {fileID: 1000011764500980, guid: bf6e65de4f70a4dcf99ceb68e999d287, type: 3}
       propertyPath: m_IsActive
@@ -496,6 +512,12 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 382896101}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &439081573 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000011764500980, guid: bf6e65de4f70a4dcf99ceb68e999d287,
+    type: 3}
+  m_PrefabInstance: {fileID: 697942098}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &459744459
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -506,7 +528,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1000011764500980, guid: bf6e65de4f70a4dcf99ceb68e999d287, type: 3}
       propertyPath: m_Name
-      value: AchievementDisplay (1)
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 114000011025716940, guid: bf6e65de4f70a4dcf99ceb68e999d287,
         type: 3}
@@ -696,7 +718,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1000011764500980, guid: bf6e65de4f70a4dcf99ceb68e999d287,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 672819696}
   m_SourcePrefab: {fileID: 100100000, guid: bf6e65de4f70a4dcf99ceb68e999d287, type: 3}
 --- !u!224 &459744460 stripped
 RectTransform:
@@ -704,6 +730,52 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 459744459}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &672819693 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000011764500980, guid: bf6e65de4f70a4dcf99ceb68e999d287,
+    type: 3}
+  m_PrefabInstance: {fileID: 459744459}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &672819695 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114000010642984398, guid: bf6e65de4f70a4dcf99ceb68e999d287,
+    type: 3}
+  m_PrefabInstance: {fileID: 459744459}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 672819693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e775494159ed5e4c997035d2df49776, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &672819696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 672819693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c428a409f1458ca4bae012df820f9a66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AchievementDisplayPrefab: {fileID: 672819695}
+  mMAchievementList: {fileID: 11400000, guid: f01ae99c6cdac83458311e957dbd6859, type: 2}
+  mMAchievement:
+    AchievementID: 
+    AchievementType: 0
+    HiddenAchievement: 0
+    UnlockedStatus: 0
+    Title: 
+    Description: 
+    Points: 0
+    LockedImage: {fileID: 21300000, guid: 16a86a7f581fc4dfb953e0df8ad3ecac, type: 3}
+    UnlockedImage: {fileID: 21300000, guid: fa6d364a5a0575245859952062aea14b, type: 3}
+    UnlockedSound: {fileID: 0}
+    ProgressTarget: 0
+    ProgressCurrent: 0
+  AchievementsListPosition: 1
 --- !u!1001 &697942098
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -718,7 +790,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1000011764500980, guid: bf6e65de4f70a4dcf99ceb68e999d287, type: 3}
       propertyPath: m_Name
-      value: AchievementDisplay
+      value: Die
       objectReference: {fileID: 0}
     - target: {fileID: 114000011025716940, guid: bf6e65de4f70a4dcf99ceb68e999d287,
         type: 3}
@@ -928,13 +1000,63 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1000011764500980, guid: bf6e65de4f70a4dcf99ceb68e999d287,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 697942102}
   m_SourcePrefab: {fileID: 100100000, guid: bf6e65de4f70a4dcf99ceb68e999d287, type: 3}
 --- !u!224 &697942099 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 224000014175055234, guid: bf6e65de4f70a4dcf99ceb68e999d287,
     type: 3}
   m_PrefabInstance: {fileID: 697942098}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &697942101 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114000010642984398, guid: bf6e65de4f70a4dcf99ceb68e999d287,
+    type: 3}
+  m_PrefabInstance: {fileID: 697942098}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 439081573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e775494159ed5e4c997035d2df49776, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &697942102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 439081573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c428a409f1458ca4bae012df820f9a66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AchievementDisplayPrefab: {fileID: 697942101}
+  mMAchievementList: {fileID: 11400000, guid: f01ae99c6cdac83458311e957dbd6859, type: 2}
+  mMAchievement:
+    AchievementID: 
+    AchievementType: 0
+    HiddenAchievement: 0
+    UnlockedStatus: 0
+    Title: 
+    Description: 
+    Points: 0
+    LockedImage: {fileID: 0}
+    UnlockedImage: {fileID: 0}
+    UnlockedSound: {fileID: 0}
+    ProgressTarget: 0
+    ProgressCurrent: 0
+  AchievementsListPosition: 0
+--- !u!1 &770050137 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000011764500980, guid: bf6e65de4f70a4dcf99ceb68e999d287,
+    type: 3}
+  m_PrefabInstance: {fileID: 1235346286}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &809887255
 GameObject:
@@ -999,7 +1121,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1000011764500980, guid: bf6e65de4f70a4dcf99ceb68e999d287, type: 3}
       propertyPath: m_Name
-      value: AchievementDisplay (8)
+      value: Sun
       objectReference: {fileID: 0}
     - target: {fileID: 1000011764500980, guid: bf6e65de4f70a4dcf99ceb68e999d287, type: 3}
       propertyPath: m_IsActive
@@ -1133,7 +1255,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1000011764500980, guid: bf6e65de4f70a4dcf99ceb68e999d287,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1101965187}
   m_SourcePrefab: {fileID: 100100000, guid: bf6e65de4f70a4dcf99ceb68e999d287, type: 3}
 --- !u!224 &882942201 stripped
 RectTransform:
@@ -1238,9 +1364,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 897079191}
-        m_TargetAssemblyTypeName: NewBehaviourScript, Assembly-CSharp
-        m_MethodName: 
+      - m_Target: {fileID: 897079193}
+        m_TargetAssemblyTypeName: ResetAchievements, Assembly-CSharp
+        m_MethodName: ResetAchievementsFuntion
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1270,7 +1396,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9c3ac5738e7eb264781339d7e47ce740, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 160ff2e43fdf7cb46bb462bb1ce55764, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1495,6 +1621,52 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6be6b5536e7cdfa4b8dea369e32707e5, type: 3}
+--- !u!1 &1101965184 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000011764500980, guid: bf6e65de4f70a4dcf99ceb68e999d287,
+    type: 3}
+  m_PrefabInstance: {fileID: 882942200}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1101965186 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114000010642984398, guid: bf6e65de4f70a4dcf99ceb68e999d287,
+    type: 3}
+  m_PrefabInstance: {fileID: 882942200}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1101965184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e775494159ed5e4c997035d2df49776, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1101965187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1101965184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c428a409f1458ca4bae012df820f9a66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AchievementDisplayPrefab: {fileID: 1101965186}
+  mMAchievementList: {fileID: 11400000, guid: f01ae99c6cdac83458311e957dbd6859, type: 2}
+  mMAchievement:
+    AchievementID: 
+    AchievementType: 0
+    HiddenAchievement: 0
+    UnlockedStatus: 0
+    Title: 
+    Description: 
+    Points: 0
+    LockedImage: {fileID: 21300000, guid: 16a86a7f581fc4dfb953e0df8ad3ecac, type: 3}
+    UnlockedImage: {fileID: 21300000, guid: fa6d364a5a0575245859952062aea14b, type: 3}
+    UnlockedSound: {fileID: 0}
+    ProgressTarget: 0
+    ProgressCurrent: 0
+  AchievementsListPosition: 7
 --- !u!1 &1146130113
 GameObject:
   m_ObjectHideFlags: 0
@@ -1639,7 +1811,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1000011764500980, guid: bf6e65de4f70a4dcf99ceb68e999d287, type: 3}
       propertyPath: m_Name
-      value: AchievementDisplay (7)
+      value: Rock
       objectReference: {fileID: 0}
     - target: {fileID: 1000011764500980, guid: bf6e65de4f70a4dcf99ceb68e999d287, type: 3}
       propertyPath: m_IsActive
@@ -1773,7 +1945,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1000011764500980, guid: bf6e65de4f70a4dcf99ceb68e999d287,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1235346290}
   m_SourcePrefab: {fileID: 100100000, guid: bf6e65de4f70a4dcf99ceb68e999d287, type: 3}
 --- !u!224 &1235346287 stripped
 RectTransform:
@@ -1781,6 +1957,103 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 1235346286}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1235346289 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114000010642984398, guid: bf6e65de4f70a4dcf99ceb68e999d287,
+    type: 3}
+  m_PrefabInstance: {fileID: 1235346286}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 770050137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e775494159ed5e4c997035d2df49776, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1235346290
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 770050137}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c428a409f1458ca4bae012df820f9a66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AchievementDisplayPrefab: {fileID: 1235346289}
+  mMAchievementList: {fileID: 11400000, guid: f01ae99c6cdac83458311e957dbd6859, type: 2}
+  mMAchievement:
+    AchievementID: 
+    AchievementType: 0
+    HiddenAchievement: 0
+    UnlockedStatus: 0
+    Title: 
+    Description: 
+    Points: 0
+    LockedImage: {fileID: 21300000, guid: 16a86a7f581fc4dfb953e0df8ad3ecac, type: 3}
+    UnlockedImage: {fileID: 21300000, guid: fa6d364a5a0575245859952062aea14b, type: 3}
+    UnlockedSound: {fileID: 0}
+    ProgressTarget: 0
+    ProgressCurrent: 0
+  AchievementsListPosition: 6
+--- !u!1001 &1342637919
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 190956, guid: 6059d977d1f210348bfbe1a82f4f9883, type: 3}
+      propertyPath: m_Name
+      value: GameManagers
+      objectReference: {fileID: 0}
+    - target: {fileID: 490956, guid: 6059d977d1f210348bfbe1a82f4f9883, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -27.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 490956, guid: 6059d977d1f210348bfbe1a82f4f9883, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -30.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 490956, guid: 6059d977d1f210348bfbe1a82f4f9883, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 490956, guid: 6059d977d1f210348bfbe1a82f4f9883, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 490956, guid: 6059d977d1f210348bfbe1a82f4f9883, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 490956, guid: 6059d977d1f210348bfbe1a82f4f9883, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 490956, guid: 6059d977d1f210348bfbe1a82f4f9883, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 490956, guid: 6059d977d1f210348bfbe1a82f4f9883, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 490956, guid: 6059d977d1f210348bfbe1a82f4f9883, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 490956, guid: 6059d977d1f210348bfbe1a82f4f9883, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6059d977d1f210348bfbe1a82f4f9883, type: 3}
 --- !u!1001 &1483544637
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1791,7 +2064,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1000011764500980, guid: bf6e65de4f70a4dcf99ceb68e999d287, type: 3}
       propertyPath: m_Name
-      value: AchievementDisplay (6)
+      value: PO
       objectReference: {fileID: 0}
     - target: {fileID: 1000011764500980, guid: bf6e65de4f70a4dcf99ceb68e999d287, type: 3}
       propertyPath: m_IsActive
@@ -1925,7 +2198,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1000011764500980, guid: bf6e65de4f70a4dcf99ceb68e999d287,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1539912942}
   m_SourcePrefab: {fileID: 100100000, guid: bf6e65de4f70a4dcf99ceb68e999d287, type: 3}
 --- !u!224 &1483544638 stripped
 RectTransform:
@@ -1943,7 +2220,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1000011764500980, guid: bf6e65de4f70a4dcf99ceb68e999d287, type: 3}
       propertyPath: m_Name
-      value: AchievementDisplay (5)
+      value: lvl3
       objectReference: {fileID: 0}
     - target: {fileID: 1000011764500980, guid: bf6e65de4f70a4dcf99ceb68e999d287, type: 3}
       propertyPath: m_IsActive
@@ -2077,7 +2354,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1000011764500980, guid: bf6e65de4f70a4dcf99ceb68e999d287,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1510101374}
   m_SourcePrefab: {fileID: 100100000, guid: bf6e65de4f70a4dcf99ceb68e999d287, type: 3}
 --- !u!224 &1510101371 stripped
 RectTransform:
@@ -2085,6 +2366,98 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 1510101370}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1510101373 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114000010642984398, guid: bf6e65de4f70a4dcf99ceb68e999d287,
+    type: 3}
+  m_PrefabInstance: {fileID: 1510101370}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 335027286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e775494159ed5e4c997035d2df49776, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1510101374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 335027286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c428a409f1458ca4bae012df820f9a66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AchievementDisplayPrefab: {fileID: 1510101373}
+  mMAchievementList: {fileID: 11400000, guid: f01ae99c6cdac83458311e957dbd6859, type: 2}
+  mMAchievement:
+    AchievementID: 
+    AchievementType: 0
+    HiddenAchievement: 0
+    UnlockedStatus: 0
+    Title: 
+    Description: 
+    Points: 0
+    LockedImage: {fileID: 21300000, guid: 16a86a7f581fc4dfb953e0df8ad3ecac, type: 3}
+    UnlockedImage: {fileID: 21300000, guid: fa6d364a5a0575245859952062aea14b, type: 3}
+    UnlockedSound: {fileID: 0}
+    ProgressTarget: 0
+    ProgressCurrent: 0
+  AchievementsListPosition: 5
+--- !u!1 &1515785975 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000011764500980, guid: bf6e65de4f70a4dcf99ceb68e999d287,
+    type: 3}
+  m_PrefabInstance: {fileID: 1804897698}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1539912939 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000011764500980, guid: bf6e65de4f70a4dcf99ceb68e999d287,
+    type: 3}
+  m_PrefabInstance: {fileID: 1483544637}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1539912941 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114000010642984398, guid: bf6e65de4f70a4dcf99ceb68e999d287,
+    type: 3}
+  m_PrefabInstance: {fileID: 1483544637}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1539912939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e775494159ed5e4c997035d2df49776, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1539912942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1539912939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c428a409f1458ca4bae012df820f9a66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AchievementDisplayPrefab: {fileID: 1539912941}
+  mMAchievementList: {fileID: 11400000, guid: f01ae99c6cdac83458311e957dbd6859, type: 2}
+  mMAchievement:
+    AchievementID: 
+    AchievementType: 0
+    HiddenAchievement: 0
+    UnlockedStatus: 0
+    Title: 
+    Description: 
+    Points: 0
+    LockedImage: {fileID: 21300000, guid: 16a86a7f581fc4dfb953e0df8ad3ecac, type: 3}
+    UnlockedImage: {fileID: 21300000, guid: fa6d364a5a0575245859952062aea14b, type: 3}
+    UnlockedSound: {fileID: 0}
+    ProgressTarget: 0
+    ProgressCurrent: 0
+  AchievementsListPosition: 8
 --- !u!1 &1594703120
 GameObject:
   m_ObjectHideFlags: 0
@@ -2358,7 +2731,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 160ff2e43fdf7cb46bb462bb1ce55764, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9c3ac5738e7eb264781339d7e47ce740, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2501,7 +2874,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1000011764500980, guid: bf6e65de4f70a4dcf99ceb68e999d287, type: 3}
       propertyPath: m_Name
-      value: AchievementDisplay (2)
+      value: rich
       objectReference: {fileID: 0}
     - target: {fileID: 114000011025716940, guid: bf6e65de4f70a4dcf99ceb68e999d287,
         type: 3}
@@ -2631,7 +3004,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1000011764500980, guid: bf6e65de4f70a4dcf99ceb68e999d287,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1781304653}
   m_SourcePrefab: {fileID: 100100000, guid: bf6e65de4f70a4dcf99ceb68e999d287, type: 3}
 --- !u!224 &1781304650 stripped
 RectTransform:
@@ -2639,6 +3016,46 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 1781304649}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1781304652 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114000010642984398, guid: bf6e65de4f70a4dcf99ceb68e999d287,
+    type: 3}
+  m_PrefabInstance: {fileID: 1781304649}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 188734460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e775494159ed5e4c997035d2df49776, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1781304653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 188734460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c428a409f1458ca4bae012df820f9a66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AchievementDisplayPrefab: {fileID: 1781304652}
+  mMAchievementList: {fileID: 11400000, guid: f01ae99c6cdac83458311e957dbd6859, type: 2}
+  mMAchievement:
+    AchievementID: 
+    AchievementType: 0
+    HiddenAchievement: 0
+    UnlockedStatus: 0
+    Title: 
+    Description: 
+    Points: 0
+    LockedImage: {fileID: 21300000, guid: 16a86a7f581fc4dfb953e0df8ad3ecac, type: 3}
+    UnlockedImage: {fileID: 21300000, guid: fa6d364a5a0575245859952062aea14b, type: 3}
+    UnlockedSound: {fileID: 0}
+    ProgressTarget: 0
+    ProgressCurrent: 0
+  AchievementsListPosition: 2
 --- !u!1001 &1804897698
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2649,7 +3066,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1000011764500980, guid: bf6e65de4f70a4dcf99ceb68e999d287, type: 3}
       propertyPath: m_Name
-      value: AchievementDisplay (4)
+      value: lvl2
       objectReference: {fileID: 0}
     - target: {fileID: 1000011764500980, guid: bf6e65de4f70a4dcf99ceb68e999d287, type: 3}
       propertyPath: m_IsActive
@@ -2783,7 +3200,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1000011764500980, guid: bf6e65de4f70a4dcf99ceb68e999d287,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1804897702}
   m_SourcePrefab: {fileID: 100100000, guid: bf6e65de4f70a4dcf99ceb68e999d287, type: 3}
 --- !u!224 &1804897699 stripped
 RectTransform:
@@ -2791,6 +3212,46 @@ RectTransform:
     type: 3}
   m_PrefabInstance: {fileID: 1804897698}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1804897701 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114000010642984398, guid: bf6e65de4f70a4dcf99ceb68e999d287,
+    type: 3}
+  m_PrefabInstance: {fileID: 1804897698}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1515785975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e775494159ed5e4c997035d2df49776, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1804897702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1515785975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c428a409f1458ca4bae012df820f9a66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AchievementDisplayPrefab: {fileID: 1804897701}
+  mMAchievementList: {fileID: 11400000, guid: f01ae99c6cdac83458311e957dbd6859, type: 2}
+  mMAchievement:
+    AchievementID: 
+    AchievementType: 0
+    HiddenAchievement: 0
+    UnlockedStatus: 0
+    Title: 
+    Description: 
+    Points: 0
+    LockedImage: {fileID: 21300000, guid: 16a86a7f581fc4dfb953e0df8ad3ecac, type: 3}
+    UnlockedImage: {fileID: 21300000, guid: fa6d364a5a0575245859952062aea14b, type: 3}
+    UnlockedSound: {fileID: 0}
+    ProgressTarget: 0
+    ProgressCurrent: 0
+  AchievementsListPosition: 4
 --- !u!1 &1819240858
 GameObject:
   m_ObjectHideFlags: 0
@@ -2844,6 +3305,52 @@ MonoBehaviour:
   creditsLevelName: creditos
   startLevelName: 
   acievementsLevelName: 
+--- !u!1 &2136968761 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000011764500980, guid: bf6e65de4f70a4dcf99ceb68e999d287,
+    type: 3}
+  m_PrefabInstance: {fileID: 143357404}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2136968763 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114000010642984398, guid: bf6e65de4f70a4dcf99ceb68e999d287,
+    type: 3}
+  m_PrefabInstance: {fileID: 143357404}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2136968761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e775494159ed5e4c997035d2df49776, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2136968764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2136968761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c428a409f1458ca4bae012df820f9a66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AchievementDisplayPrefab: {fileID: 2136968763}
+  mMAchievementList: {fileID: 11400000, guid: f01ae99c6cdac83458311e957dbd6859, type: 2}
+  mMAchievement:
+    AchievementID: 
+    AchievementType: 0
+    HiddenAchievement: 0
+    UnlockedStatus: 0
+    Title: 
+    Description: 
+    Points: 0
+    LockedImage: {fileID: 21300000, guid: 16a86a7f581fc4dfb953e0df8ad3ecac, type: 3}
+    UnlockedImage: {fileID: 21300000, guid: fa6d364a5a0575245859952062aea14b, type: 3}
+    UnlockedSound: {fileID: 0}
+    ProgressTarget: 0
+    ProgressCurrent: 0
+  AchievementsListPosition: 3
 --- !u!1001 &8040196612217246658
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2939,3 +3446,4 @@ SceneRoots:
   - {fileID: 966346744}
   - {fileID: 1674947919}
   - {fileID: 8040196612217246658}
+  - {fileID: 1342637919}

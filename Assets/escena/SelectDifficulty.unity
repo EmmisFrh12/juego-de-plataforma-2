@@ -158,10 +158,10 @@ RectTransform:
   - {fileID: 1379388264}
   m_Father: {fileID: 1774442011}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4.000122, y: -73.041016}
-  m_SizeDelta: {x: 274, y: 75}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: -58.000015, y: -3.5540771}
+  m_SizeDelta: {x: 346.8268, y: -647.247}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &3615996
 MonoBehaviour:
@@ -519,10 +519,10 @@ RectTransform:
   - {fileID: 2062740662}
   m_Father: {fileID: 1774442011}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 398, y: -185}
-  m_SizeDelta: {x: 202.6008, y: 75}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 440.72144, y: -144.99327}
+  m_SizeDelta: {x: 256.4503, y: -647.247}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &885788450
 MonoBehaviour:
@@ -567,31 +567,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 885788451}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 392250204}
-        m_TargetAssemblyTypeName: DifficultySettings, Assembly-CSharp
-        m_MethodName: OnClickPerma
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1112959149}
-        m_TargetAssemblyTypeName: NewBehaviourScript, Assembly-CSharp
-        m_MethodName: OnClickJugar
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &885788451
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -939,10 +915,10 @@ RectTransform:
   - {fileID: 1919601924}
   m_Father: {fileID: 1774442011}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 4, y: -224}
-  m_SizeDelta: {x: 274, y: 75}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: -58.00019, y: -194.26237}
+  m_SizeDelta: {x: 346.8268, y: -647.247}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1051561974
 MonoBehaviour:
@@ -984,13 +960,25 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 1051561975}
+  m_TargetGraphic: {fileID: 885788451}
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 392250204}
+        m_TargetAssemblyTypeName: DifficultySettings, Assembly-CSharp
+        m_MethodName: OnClickPerma
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 1112959149}
         m_TargetAssemblyTypeName: NewBehaviourScript, Assembly-CSharp
-        m_MethodName: OnClickSalir
+        m_MethodName: OnClickJugar
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1125,11 +1113,11 @@ RectTransform:
   - {fileID: 1009444873}
   m_Father: {fileID: 1774442011}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 4.000122, y: -243.14001}
-  m_SizeDelta: {x: 274, y: 74}
-  m_Pivot: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: -58, y: 102}
+  m_SizeDelta: {x: 346.8268, y: -648.5103}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1344954395
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1859,10 +1847,10 @@ RectTransform:
   - {fileID: 832464817}
   m_Father: {fileID: 1774442011}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5.0860224, y: -145.44002}
-  m_SizeDelta: {x: 274, y: 75}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: -56.625534, y: -95.016624}
+  m_SizeDelta: {x: 346.8268, y: -647.247}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1980826229
 MonoBehaviour:
