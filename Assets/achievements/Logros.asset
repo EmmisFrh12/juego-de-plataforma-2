@@ -110,3 +110,15 @@ MonoBehaviour:
     UnlockedSound: {fileID: 0}
     ProgressTarget: 10
     ProgressCurrent: 0
+  - AchievementID: Systems at 200%
+    AchievementType: 0
+    HiddenAchievement: 0
+    UnlockedStatus: 0
+    Title: You are my sunshine
+    Description: Find Lebron
+    Points: 25
+    LockedImage: {fileID: 0}
+    UnlockedImage: {fileID: 0}
+    UnlockedSound: {fileID: 0}
+    ProgressTarget: 10
+    ProgressCurrent: 0
