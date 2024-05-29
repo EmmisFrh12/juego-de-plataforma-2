@@ -32,10 +32,10 @@ namespace MoreMountains.CorgiEngine
 		/// The minimum amount of health to remove from the player's health
 		[FormerlySerializedAs("DamageCaused")]
 		[Tooltip("The minimum amount of health to remove from the player's health")]
-		public float MinDamageCaused = 10f;
+		public float MinDamageCaused = 0f;
 		/// The maximum amount of health to remove from the player's health
 		[Tooltip("The amount of health to remove from the player's health")]
-		public float MaxDamageCaused = 10f;
+		public float MaxDamageCaused = 0f;
 		/// a list of typed damage definitions that will be applied on top of the base damage
 		[Tooltip("a list of typed damage definitions that will be applied on top of the base damage")]
 		public List<TypedDamage> TypedDamages;
