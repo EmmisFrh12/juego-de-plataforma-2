@@ -640,10 +640,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: redRobot
       objectReference: {fileID: 0}
+    - target: {fileID: 4100429989710309245, guid: 15d4a9c766ec14b4f9c5e27244358ca7,
+        type: 3}
+      propertyPath: InitialHealth
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 4122250681146059783, guid: 15d4a9c766ec14b4f9c5e27244358ca7,
         type: 3}
       propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4122250681146059783, guid: 15d4a9c766ec14b4f9c5e27244358ca7,
+        type: 3}
+      propertyPath: MaxDamageCaused
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4122250681146059783, guid: 15d4a9c766ec14b4f9c5e27244358ca7,
+        type: 3}
+      propertyPath: MinDamageCaused
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4122250681146059783, guid: 15d4a9c766ec14b4f9c5e27244358ca7,
+        type: 3}
+      propertyPath: DamageTakenEveryTime
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
