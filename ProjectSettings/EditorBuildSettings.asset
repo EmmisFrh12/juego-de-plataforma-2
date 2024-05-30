@@ -249,6 +249,9 @@ EditorBuildSettings:
     path: Assets/CorgiEngine/ThirdParty/MoreMountains/MMTools/Tools/MMSceneLoading/LoadingScreens/LoadingScreen.unity
     guid: 888394d52616e5e42b3b54c3f2bbd3eb
   - enabled: 1
+    path: Assets/escena/Boss.unity
+    guid: 542910eaa4248d140924bb9f600282ab
+  - enabled: 1
     path: Assets/escena/easteregg2.unity
     guid: 5cdea311cf093db478da22dd6c32ddb8
   - enabled: 1
