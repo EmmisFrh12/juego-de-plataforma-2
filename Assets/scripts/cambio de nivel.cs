@@ -5,10 +5,9 @@ using UnityEngine;
 
 public class cambiodenivel : MonoBehaviour
 {
-    // Start is called before the first frame update
-    public void ONCambiarNivel()
+    public void ONCambiarNivel(string sceneName)
     {
-        MMSceneLoadingManager.LoadScene("nivel2");
+        MMSceneLoadingManager.LoadScene(sceneName);
         //Debug.Log("abrir puerta");
     }
 }
