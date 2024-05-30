@@ -588,7 +588,7 @@ PrefabInstance:
     - target: {fileID: 977824803763250600, guid: 15d4a9c766ec14b4f9c5e27244358ca7,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 62.6
+      value: 63.37
       objectReference: {fileID: 0}
     - target: {fileID: 977824803763250600, guid: 15d4a9c766ec14b4f9c5e27244358ca7,
         type: 3}
@@ -640,6 +640,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: redRobot
       objectReference: {fileID: 0}
+    - target: {fileID: 3288399667332644010, guid: 15d4a9c766ec14b4f9c5e27244358ca7,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 1.4725692
+      objectReference: {fileID: 0}
+    - target: {fileID: 3288399667332644010, guid: 15d4a9c766ec14b4f9c5e27244358ca7,
+        type: 3}
+      propertyPath: m_Offset.y
+      value: -0.4438728
+      objectReference: {fileID: 0}
     - target: {fileID: 4100429989710309245, guid: 15d4a9c766ec14b4f9c5e27244358ca7,
         type: 3}
       propertyPath: InitialHealth
@@ -668,7 +678,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3023849413084523555, guid: 15d4a9c766ec14b4f9c5e27244358ca7,
+        type: 3}
+      insertIndex: 5
+      addedObject: {fileID: 1017041094}
   m_SourcePrefab: {fileID: 100100000, guid: 15d4a9c766ec14b4f9c5e27244358ca7, type: 3}
 --- !u!1001 &201216712
 PrefabInstance:
@@ -1904,12 +1918,51 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1017041072 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3023849413084523555, guid: 15d4a9c766ec14b4f9c5e27244358ca7,
+    type: 3}
+  m_PrefabInstance: {fileID: 198944642}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1017041073 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 977824803763250600, guid: 15d4a9c766ec14b4f9c5e27244358ca7,
     type: 3}
   m_PrefabInstance: {fileID: 198944642}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1017041094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1017041072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e24d0eb5fa7640038713564930581a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AbilityStartFeedbacks: {fileID: 0}
+  AbilityStopFeedbacks: {fileID: 0}
+  AbilityPermitted: 1
+  BlockingMovementStates: 
+  BlockingConditionStates: 
+  BlockingWeaponStates: 
+  WalkSpeed: 6
+  MovementSpeedMultiplier: 1
+  AbilityMovementSpeedMultiplier: 1
+  PushSpeedMultiplier: 1
+  StateSpeedMultiplier: 1
+  FlipCharacterToFaceDirection: 1
+  ReadInput: 1
+  InstantAcceleration: 0
+  InputThreshold: 0.1
+  AirControl: 1
+  AllowFlipInTheAir: 1
+  ActiveAfterDeath: 0
+  TouchTheGroundFeedback: {fileID: 0}
+  MinimumAirTimeBeforeFeedback: 0.2
+  StopWalkingWhenCollidingWithAWall: 0
 --- !u!1001 &1067930525
 PrefabInstance:
   m_ObjectHideFlags: 0
