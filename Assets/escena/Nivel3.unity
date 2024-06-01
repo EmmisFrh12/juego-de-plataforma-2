@@ -505,7 +505,7 @@ PrefabInstance:
     - target: {fileID: 114095915300056716, guid: feac1641feadae445931567fc1daf1b7,
         type: 3}
       propertyPath: OnActivation.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: Boss
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
