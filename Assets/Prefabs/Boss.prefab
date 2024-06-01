@@ -331,7 +331,9 @@ GameObject:
   - component: {fileID: 3940321311941993205}
   - component: {fileID: 1606344443359619115}
   - component: {fileID: 5188816480127967824}
+  - component: {fileID: 3277097165884652694}
   - component: {fileID: 2483597722391642262}
+  - component: {fileID: 5585267124455361374}
   - component: {fileID: 7862006037243150346}
   - component: {fileID: 5683389631749903106}
   - component: {fileID: 3322575717805287003}
@@ -339,6 +341,7 @@ GameObject:
   - component: {fileID: 3451252861433071144}
   - component: {fileID: 8855955777819626635}
   - component: {fileID: 7989505666975794016}
+  - component: {fileID: 1427115706687256807}
   - component: {fileID: 2621071540147429177}
   - component: {fileID: 3187126855955840793}
   - component: {fileID: 2056878244691483938}
@@ -478,7 +481,7 @@ MonoBehaviour:
   DirectionOnSpawn: 0
   CharacterAnimator: {fileID: 7129123444757353772}
   UseDefaultMecanim: 1
-  PerformAnimatorSanityChecks: 1
+  PerformAnimatorSanityChecks: 0
   DisableAnimatorLogs: 0
   CharacterModel: {fileID: 7336885051143829494}
   CameraTarget: {fileID: 0}
@@ -974,6 +977,7 @@ MonoBehaviour:
     Actions:
       array:
       - {fileID: 7862006037243150346}
+      - {fileID: 3277097165884652694}
     Transitions:
       array:
       - Decision: {fileID: 2621071540147429177}
@@ -983,6 +987,7 @@ MonoBehaviour:
     Actions:
       array:
       - {fileID: 5683389631749903106}
+      - {fileID: 5585267124455361374}
     Transitions:
       array:
       - Decision: {fileID: 992581395343355538}
@@ -996,6 +1001,7 @@ MonoBehaviour:
       array:
       - {fileID: 3451252861433071144}
       - {fileID: 8855955777819626635}
+      - {fileID: 3277097165884652694}
     Transitions:
       array:
       - Decision: {fileID: 2056878244691483938}
@@ -1039,6 +1045,7 @@ MonoBehaviour:
   - StateName: Die
     Actions:
       array:
+      - {fileID: 1427115706687256807}
       - {fileID: 7989505666975794016}
     Transitions:
       array: []
@@ -1067,6 +1074,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ParameterName: Idle
   TargetAnimator: {fileID: 7129123444757353772}
+--- !u!114 &3277097165884652694
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7336885051143829494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 653b45e453e54664e9b7ea62fbd9d3e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InitializationMode: 0
+  Label: SetIdle
+  TargetEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5188816480127967824}
+        m_TargetAssemblyTypeName: MoreMountains.Tools.MMAnimationParameter, MoreMountains.Tools
+        m_MethodName: SetTrigger
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnlyPlayWhenEnteringState: 1
 --- !u!114 &2483597722391642262
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1081,6 +1118,36 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ParameterName: Walk
   TargetAnimator: {fileID: 7129123444757353772}
+--- !u!114 &5585267124455361374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7336885051143829494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 653b45e453e54664e9b7ea62fbd9d3e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InitializationMode: 0
+  Label: SetWalk
+  TargetEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2483597722391642262}
+        m_TargetAssemblyTypeName: MoreMountains.Tools.MMAnimationParameter, MoreMountains.Tools
+        m_MethodName: SetTrigger
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnlyPlayWhenEnteringState: 1
 --- !u!114 &7862006037243150346
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1203,6 +1270,36 @@ MonoBehaviour:
   InitializationMode: 0
   Label: SelfDetonate
   OnlyRunOnce: 1
+--- !u!114 &1427115706687256807
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7336885051143829494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 653b45e453e54664e9b7ea62fbd9d3e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InitializationMode: 0
+  Label: WhenDied
+  TargetEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  OnlyPlayWhenEnteringState: 1
 --- !u!114 &2621071540147429177
 MonoBehaviour:
   m_ObjectHideFlags: 0

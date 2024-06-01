@@ -135,6 +135,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Door
       objectReference: {fileID: 0}
+    - target: {fileID: 1220719764557184, guid: feac1641feadae445931567fc1daf1b7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4502267352510588, guid: feac1641feadae445931567fc1daf1b7, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -288,6 +292,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5315464cff26a134791b03f309c2dbf3, type: 3}
+--- !u!1 &425547174 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1220719764557184, guid: feac1641feadae445931567fc1daf1b7,
+    type: 3}
+  m_PrefabInstance: {fileID: 128140192}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &442176981
 GameObject:
   m_ObjectHideFlags: 0
@@ -706,6 +716,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1427115706687256807, guid: f5262979cf084e64496a10938c33a40a,
+        type: 3}
+      propertyPath: TargetEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 425547174}
     - target: {fileID: 7293317869960808014, guid: f5262979cf084e64496a10938c33a40a,
         type: 3}
       propertyPath: m_LocalPosition.x
